@@ -1,0 +1,162 @@
+#title {
+background: #ff4c68;
+color: white;
+position: relative;
+z-index: 0;
+}
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;
+}
+
+.container-fluid {
+padding: 3% 15%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;f
+}
+
+.navbar-brand {
+font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.navbar {
+padding: 0 0 4.5rem;
+}
+
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+font-weight: 400;
+}
+
+.downloadbutton {
+margin: 5% 3% 5% 0%;
+}
+
+.titleimage {
+width: 40%;
+transform: rotate(24deg);
+position: absolute;
+}
+
+.threeicons {
+color: #ef8172;
+margin: auto;
+textalign: center;
+font-size: 5.5rem;
+}
+
+.threeicons:hover {
+color: #ff4c68;
+text-align: center;
+font-size: 5.5rem;
+}
+
+#features {
+margin: auto;
+text-align: center;
+padding: 5% 0 5% 0;
+background: white;
+z-index: 1;
+position: relative;
+}
+
+.featuresdiv {
+padding-top: 5%;
+padding-bottom: 5%;
+text-align: center;
+}
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+line-height: 1.5;
+font-weight: 900;
+padding: 5%;
+}
+
+#testimonials {
+text-align: center;
+background: #ef8172;
+color: white;
+}
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.testimage {
+width: 10%;
+border-radius: 100%;
+padding: 5% 0%;
+}
+
+#press {
+background: #ef8172;
+text-align: center;
+padding-bottom: 5%;
+}
+
+.pressimage {
+width: 15%;
+height: 15%;
+padding: 0% 3%;
+}
+.carousel-item {
+padding: 7% 15%;
+}
+
+#pricing {
+text-align: center;
+padding: 5%;
+}
+
+.card-header {
+background: #ff4c68;
+color: white;
+}
+
+.card-header:hover {
+background: #ef8172;
+color: white;
+}
+
+#cta {
+text-align: center;
+padding: 3%;
+font-family: 'Montserrat', sans-serif;
+font-wight: 900;
+background: #ff4c68;
+}
+
+#footer {
+text-align: center;
+background: white;
+padding: 4%;
+}
+
+.footerrow {
+text-align: center;
+}
+
+@media (max-width: 1028px) {
+.titleimage {
+    position: static;
+    transform: rotate(0deg);
+    }
+h1 {
+    text-align: center;
+    }
+}
